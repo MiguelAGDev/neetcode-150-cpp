@@ -42,21 +42,17 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
 
-        int l, r, current_target;
+        int l = 0, r = numbers.size() - 1, current_target;
 
-        for(int i = 0; i < numbers.size(); i++){
-            l = i + 1;
-            r = numbers.size() - 1;
+        while(l < r){
+            current_target = numbers[l] + numbers[r];
 
-            current_target = (target - numbers[i]);
-
-            while(l <= r){
-                if(numbers[l] == current_target) return {++i, ++l};
-                if(numbers[r] == current_target) return {++i, ++r};
-
+            if(current_target == target)
+                return {++l, ++r};
+            if(current_target < target)
                 l++;
+            else // current_target > target
                 r--;
-            }
         }
 
         return {0,0};
