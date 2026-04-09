@@ -10,7 +10,8 @@ This repository contains my solutions to the NeetCode 150 problem list, implemen
 * Two Pointers: ✅ Completed
 * Sliding Window: ✅ Completed
 * Stack: ✅ Completed
-* Binary Search: 🔄 In Progress
+* Binary Search: ✅ Completed
+* Linked List: 🔄 In Progress
 
 ---
 
