@@ -11,7 +11,8 @@ This repository contains my solutions to the NeetCode 150 problem list, implemen
 * Sliding Window: ✅ Completed
 * Stack: ✅ Completed
 * Binary Search: ✅ Completed
-* Linked List: 🔄 In Progress
+* Linked List: ✅ Completed
+* Trees: 🔄 In Progress
 
 ---
 
@@ -64,7 +65,6 @@ binary_search/
 
 ## 🚀 Next Steps
 
-* Finish Binary Search
 * Complete NeetCode 150
 * Move to Taro 75 (interview-style problems)
 * Start mock interviews
