@@ -12,7 +12,9 @@ This repository contains my solutions to the NeetCode 150 problem list, implemen
 * Stack: ✅ Completed
 * Binary Search: ✅ Completed
 * Linked List: ✅ Completed
-* Trees: 🔄 In Progress
+* Trees: ✅ Completed
+* Heap / Priority Queue: ✅ Completed
+* Backtracking: 🔄 In Progress
 
 ---
 
@@ -59,6 +61,8 @@ two_pointers/
 sliding_window/
 stack/
 binary_search/
+trees/
+heap_priority_queue/
 ...
 ```
 ---
